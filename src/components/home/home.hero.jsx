@@ -6,7 +6,7 @@ function HomeHero() {
     <div className="  h-[450px] lg:h-[600px] relative  flex justify-center items-center  ">
        
       <div className=" hero-bg flex flex-col h-full   items-start relative justify-center w-full ">
-      <div className="absolute top-0  bg-gray-900 opacity-30 w-full h-full"></div>
+      <div className="absolute top-0  bg-gray-900 opacity-70 lg:opacity-30 w-full h-full"></div>
         <div className="z-30 p-[15px] lg:p-[20px_40px]">
         <p className="font-[600] text-[30px] lg:text-[48px] font-poppins text-white">
           Lorem Ipsum Donrov
