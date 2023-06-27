@@ -1,0 +1,11 @@
+.hero-bg{
+    background-image: url('../../assets/heroImage.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.stories-bg{
+    background-image: url('../../assets/stories.jpg');
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
