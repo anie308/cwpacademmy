@@ -3,12 +3,16 @@ import Home from './pages/home';
 import Courses from './pages/Courses';
 import CourseDetails from './pages/Courses/details';
 import SingleCourse from './pages/Courses/description';
+import Login from './pages/login';
+import SignUp from './pages/register';
 
 function App() {
   return (
    <Router>
     <Routes>
       <Route path='/' element={<Home/>} />
+      <Route path='/login' element={<Login/>} />
+      <Route path='/register' element={<SignUp/>} />
       <Route path='/courses' element={<Courses/>} />
       <Route path='/courses/:slug' element={<CourseDetails/>} />
       <Route path='/courses/desc' element={<SingleCourse/>}/>

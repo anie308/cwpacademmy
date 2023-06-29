@@ -12,7 +12,7 @@ function Navbar() {
         <HiBars3 className="text-[30px] text-white" onClick={()=> setOpen(true)} />
       </div>
       <div className="text-center  ">
-       <Link to='/' className="outline-none font-poppins font-[700] text-[20px] lg:text-[25px] text-white"> CWP-Academy</Link>
+       <Link to='/' className="outline-none font-poppins font-[700] text-[20px] lg:text-[25px] text-white"> CWP Academy</Link>
       </div>
       <div>
         <div className="hidden lg:flex items-center space-x-[40px] text-white">
@@ -20,6 +20,8 @@ function Navbar() {
           <Link to="/courses" className="font-poppins">Education & Training</Link>
           <Link to="/courses" className="font-poppins">Admissions</Link>
           <Link to="/courses" className="font-poppins">Affording College</Link>
+          <Link to="/login" className="font-poppins p-[6px_30px] ">Login</Link>
+          <Link to="/register" className="font-poppins p-[6px_30px] rounded-[8px] bg-white text-primary font-[600]">Register</Link>
           
         </div>
       </div>
@@ -36,6 +38,8 @@ function Navbar() {
           <Link to="/courses" className="font-poppins">Education & Training</Link>
           <Link to="/courses" className="font-poppins">Admissions</Link>
           <Link to="/courses" className="font-poppins">Affording College</Link>
+          <Link to="/login" className="font-poppins p-[6px_30px] ">Login</Link>
+          <Link to="/register" className="font-poppins p-[6px_30px] rounded-[8px] border-primary border text-primary font-[600]">Register</Link>
         </div>
       </div>
     </div>

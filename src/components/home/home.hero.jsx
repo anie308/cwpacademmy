@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import learning from "../../assets/learning.jpg";
 import './home.css'
 
@@ -17,9 +18,11 @@ function HomeHero() {
           minima asperiores ea aliquam quasi <br className="hidden lg:block" /> repellendus tempora ipsum quod
           nesciunt aperiam quaerat?
         </p>
+        <Link to='/login'>
         <button className="text-white shadow p-[8px_25px] mt-[20px] border rounded-[8px] font-poppins">
           Start Learning
         </button>
+        </Link>
         </div>
         
         

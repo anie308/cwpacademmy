@@ -13,7 +13,7 @@ function HomePrograms() {
         </p>
         <button className="border p-[10px_20px] rounded-[10px] mt-[15px] bg-primary text-white font-poppins transition-all ">Explore all Courses</button>
       </div>
-      <div className="grid lg:grid-cols-3 mt-[50px] gap-[10px] lg:gap-0">
+      <div className="grid lg:grid-cols-3 mt-[50px] gap-[10px] lg:gap-[20px]">
         <Link to="/courses/frontend-development">
           <div className=" text-center h-[250px] lg:h-[300px] cursor-pointer hover:border-[8px] hover:transition-all bg-red-400 relative flex items-center justify-center font-poppins">
             <img src={backend} className="h-full w-full" alt="" />

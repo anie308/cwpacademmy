@@ -5,7 +5,7 @@ function Footer() {
     <div className='bg-[#F5F5F5] p-[30px_20px] lg:px-[50px] mt-[50px]'>
       <div className=' lg:py-[100px]  grid lg:grid-cols-3 gap-[40px]'>
       <div>
-      <Link to='/' className="outline-none font-poppins font-[700] text-[20px] lg:text-[25px] text-primary"> CWP-Academy</Link>
+      <Link to='/' className="outline-none font-poppins font-[700] text-[20px] lg:text-[25px] text-primary"> CWP Academy</Link>
       <p className='font-poppins'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsam perferendis nostrum voluptas ab,  necessitatibus laboriosam molestias minima.</p>
 
       </div>
